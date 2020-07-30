@@ -9,6 +9,28 @@
   display: inline-block;
 }
 
+.btn {
+  background: url("images/rolling-button.png");
+  /*-----    align image to box size   -----*/
+  background-size: 100%;
+  /*-----    align text to needed place   -----*/
+  padding-bottom: 50px;
+  /*-----    moved box little bit from images   -----*/
+  margin:20px;
+  /*-----    box sizes   -----*/
+  width: 150px;
+  height: 150px;
+  /*-----    text settings   -----*/
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #400a0a;
+/*-----    hiding border   -----*/
+  border:none;
+  /*-----    hiding outline when button was clicked   -----*/
+  outline: none;
+}
+
 body {
   background-color: #393E46;
 }
@@ -17,7 +39,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
 }
 
